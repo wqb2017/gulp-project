@@ -43,10 +43,10 @@
 
 # 常用gulp API介绍
 * gulp中最常用的API主要有4个
-* gulp.src() 匹配文件路径
-* gulp.dest() 输出文件路径 
-* gulp.task() 定义任务
-* gulp.watch() 监视文件变化
+    1. gulp.src() 匹配文件路径
+    2. gulp.dest() 输出文件路径 
+    3. gulp.task() 定义任务
+    4. gulp.watch() 监视文件变化
 * 这里有以上内容的详细说明 []() https://github.com/gulpjs/gulp/blob/master/docs/API.md
 
 # 常用插件介绍 
