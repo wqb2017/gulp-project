@@ -2,6 +2,7 @@
 使用gulp，sass，jQuery，bootstrap开发管理后台项目
 
 # 项目目录结构说明
+``` html
 |-web-lease 分时租赁
     |-node_modules gulp依赖文件
     |-gulp-tasks 配置文件
@@ -23,7 +24,7 @@
                 |-libs 业务无关库
                 |-logic 业务逻辑
                 
-                
+```        
 # 项目使用
 * svn下载项目
 * 安装 nodejs
