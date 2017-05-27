@@ -26,22 +26,22 @@
             |-pages 具体页面
 ```
         
-# 项目使用
+## 项目使用
 * git close []()https://github.com/wqb2017/gulp-project
 
-# 使用指南
+## 使用指南
 * 确保在node环境中使用
 
-# 全局安装gulp
+## 全局安装gulp
 * npm install gulp --g
 
-# 初始化项目依赖
+## 初始化项目依赖
 * npm install
 
-# 运行 gulp
+## 运行 gulp
 * gulp default
 
-# 常用gulp API介绍
+## 常用gulp API介绍
 * gulp中最常用的API主要有4个
     1. gulp.src() 匹配文件路径
     2. gulp.dest() 输出文件路径 
@@ -49,7 +49,7 @@
     4. gulp.watch() 监视文件变化
 * 这里有以上内容的详细说明 []() https://github.com/gulpjs/gulp/blob/master/docs/API.md
 
-# 常用插件介绍 
+## 常用插件介绍 
 * js文件压缩 gulp-uglify  
   安装 npm install gulp-uglify --save-dev  
   官网 []()https://www.npmjs.com/package/gulp-uglify
