@@ -28,20 +28,18 @@
         
 # 项目使用
 * git close []()https://github.com/wqb2017/gulp-project
-* svn下载项目
-* 安装 nodejs
-   说明：gulp是基于nodejs，理所当然需要安装nodejs；
-   安装：打开nodejs官网，点击硕大的绿色Download按钮，它会根据系统信息选择对应版本（.msi文件）。
-     然后像安装QQ一样安装它就可以了（安装路径随意）。
-* 全局安装gulp
-    说明：全局安装gulp目的是为了通过她执行gulp任务；
-    安装：命令提示符执行cnpm install gulp -g；
-    查看是否正确安装：命令提示符执行gulp -v，出现版本号即为正确安装。
-项目安装gulp
-    npm install gulp --save-dev
-* 下载gulp依赖
-    npm install
-* 运行项目
-    gulp default
+
+# 使用指南
+* 确保在node环境中使用
+
+# 全局安装gulp
+* npm install gulp --g
+
+# 初始化项目依赖
+* npm install
+
+# 运行 gulp
+* gulp default
+
     
 
