@@ -3,7 +3,7 @@
 
 # 项目目录结构说明
 ``` html
-|-web-lease 分时租赁
+|-gulp-project 项目名称
     |-node_modules gulp依赖文件
     |-gulp-tasks 配置文件
         |-base 公共配置文件
