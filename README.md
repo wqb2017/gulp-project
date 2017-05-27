@@ -24,8 +24,11 @@
                 |-libs #业务无关库
                 |-logic #业务逻辑
             |-pages 具体页面
-```        
+```
+        
 # 项目使用
+* git close []()https://github.com/wqb2017/gulp-project
+
 * svn下载项目
 * 安装 nodejs
    说明：gulp是基于nodejs，理所当然需要安装nodejs；
@@ -41,4 +44,5 @@
     npm install
 * 运行项目
     gulp default
+    
 
