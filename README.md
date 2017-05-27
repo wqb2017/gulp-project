@@ -51,7 +51,8 @@
 
 # 常用插件介绍 
 * js文件压缩 gulp-uglify  
-安装 npm install gulp-uglify --save-dev
+  安装 npm install gulp-uglify --save-dev  
+  官网 []()https://www.npmjs.com/package/gulp-uglify
   ```html
   var gulp = require('gulp'),
       uglify = require("gulp-uglify");
@@ -63,7 +64,8 @@
   ```
   
 * css文件压缩 gulp-minify-css  
-  安装 npm install gulp-minify-css --save-dev
+  安装 npm install gulp-minify-css --save-dev  
+  官网 []()https://www.npmjs.com/package/gulp-minify-css
   ```html
     var gulp = require('gulp'),
         minifyCss = require("gulp-minify-css");
@@ -75,7 +77,8 @@
   ```
   
 * html文件压缩 gulp-minify-html  
-  安装 npm install gulp-minify-html --save-dev
+  安装 npm install gulp-minify-html --save-dev  
+  官网 []()https://www.npmjs.com/package/gulp-minify-html
   ```html
     var gulp = require('gulp'),
         minifyHtml = require("gulp-minify-html");
@@ -87,7 +90,8 @@
   ```
   
 * js代码检查 gulp-jshint  
-  安装 npm install gulp-jshint --save-dev
+  安装 npm install gulp-jshint --save-dev  
+  官网 []()https://www.npmjs.com/package/gulp-jshint
   ```html
     var gulp = require('gulp'),
         jshint = require("gulp-jshint");
@@ -99,7 +103,8 @@
   ```
   
 * 文件合并 gulp-concat  
-  安装 npm install gulp-jshint --save-dev
+  安装 npm install gulp-jshint --save-dev  
+  官网 []()https://www.npmjs.com/package/gulp-concat
   ```html
     var gulp = require('gulp'),
         concat = require("gulp-concat");
@@ -111,7 +116,8 @@
   ```
     
 * sass的编译 gulp-less  
-  安装 npm install gulp-less --save-dev
+  安装 npm install gulp-less --save-dev  
+  官网 []()https://www.npmjs.com/package/gulp-sass
   ```html
     var gulp = require('gulp'),
         less = require("gulp-less");
@@ -141,7 +147,6 @@
     
 * 自动刷新 browser-sync  
   安装 npm install browser-sync --save-dev  
-  官网 []()https://github.com/sindresorhus/gulp-imagemin
   ```html
     var gulp = require('gulp'), //本地安装gulp所用到的地方
       browserSync = require('browser-sync').create();
