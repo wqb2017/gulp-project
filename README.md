@@ -3,26 +3,26 @@
 
 # 项目目录结构说明
 ``` html
-|-gulp-project 项目名称
-    |-node_modules gulp依赖文件
-    |-gulp-tasks 配置文件
-        |-base 公共配置文件
-        |-tasks-dev 开发环境
-        |-tasks-dist 生产环境
-    |-gulpfile.js gulp打包入口文件
-    |-package.json 各种gulp依赖包
-    |-READE.Md 说明文档
-    |-third-party-libs 第三方插件
-    |-yunying-standard 开发文件
-            |-public 公共内容
-                |-components 组件
-                |-config 配置文件
+|-gulp-project #项目名称
+    |-node_modules #gulp依赖文件
+    |-gulp-tasks #配置文件
+        |-base #公共配置文件
+        |-tasks-dev #开发环境
+        |-tasks-dist #生产环境
+    |-gulpfile.js #gulp打包入口文件
+    |-package.json #各种gulp依赖包
+    |-READE.md #说明文档
+    |-third-party-libs #第三方插件
+    |-yunying-standard #开发文件
+            |-public #公共内容
+                |-components #组件
+                |-config #配置文件
                 |-iconfont
-                |-imgs 公共图片资源
-                |-layout 具体布局
-                |-sass sass文件
-                |-libs 业务无关库
-                |-logic 业务逻辑
+                |-imgs #公共图片资源
+                |-layout #具体布局
+                |-sass #sass文件
+                |-libs #业务无关库
+                |-logic #业务逻辑
                 
 ```        
 # 项目使用
