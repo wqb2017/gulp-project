@@ -12,8 +12,8 @@
     |-gulpfile.js #gulp打包入口文件
     |-package.json #各种gulp依赖包
     |-READE.md #说明文档
-    |-third-party-libs #第三方插件
-    |-yunying-standard #开发文件
+    |-vender #第三方插件
+    |-src #业务开发
             |-public #公共内容
                 |-components #组件
                 |-config #配置文件
@@ -23,6 +23,7 @@
                 |-sass #sass文件
                 |-libs #业务无关库
                 |-logic #业务逻辑
+            |-pages 具体页面
                 
 ```        
 # 项目使用
