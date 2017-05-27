@@ -50,8 +50,8 @@
 * 这里有以上内容的详细说明 []() https://github.com/gulpjs/gulp/blob/master/docs/API.md
 
 # 常用插件介绍 
-* js文件压缩 gulp-uglify
-  安装 npm install gulp-uglify --save-dev
+* js文件压缩 gulp-uglify  
+安装 npm install gulp-uglify --save-dev
   ```html
   var gulp = require('gulp'),
       uglify = require("gulp-uglify");
@@ -62,7 +62,7 @@
   });
   ```
   
-* css文件压缩 gulp-minify-css
+* css文件压缩 gulp-minify-css  
   安装 npm install gulp-minify-css --save-dev
   ```html
     var gulp = require('gulp'),
@@ -74,7 +74,7 @@
     });
   ```
   
-* html文件压缩 gulp-minify-html
+* html文件压缩 gulp-minify-html  
   安装 npm install gulp-minify-html --save-dev
   ```html
     var gulp = require('gulp'),
@@ -86,7 +86,7 @@
     });
   ```
   
-* js代码检查 gulp-jshint
+* js代码检查 gulp-jshint  
   安装 npm install gulp-jshint --save-dev
   ```html
     var gulp = require('gulp'),
@@ -98,7 +98,7 @@
     });
   ```
   
-* 文件合并 gulp-concat
+* 文件合并 gulp-concat  
   安装 npm install gulp-jshint --save-dev
   ```html
     var gulp = require('gulp'),
@@ -110,7 +110,7 @@
     });
   ```
     
-* sass的编译 gulp-less
+* sass的编译 gulp-less  
   安装 npm install gulp-less --save-dev
   ```html
     var gulp = require('gulp'),
@@ -122,8 +122,8 @@
     });
   ```
     
-* 图片压缩 gulp-imagemin
-  安装 npm install gulp-imagemin --save-dev
+* 图片压缩 gulp-imagemin 
+  安装 npm install gulp-imagemin --save-dev  
   官网 []()https://github.com/sindresorhus/gulp-imagemin
   ```html
     var gulp = require('gulp');
@@ -139,8 +139,8 @@
     });
   ```
     
-* 自动刷新 browser-sync
-  安装 npm install browser-sync --save-dev
+* 自动刷新 browser-sync  
+  安装 npm install browser-sync --save-dev  
   官网 []()https://github.com/sindresorhus/gulp-imagemin
   ```html
     var gulp = require('gulp'), //本地安装gulp所用到的地方
