@@ -195,3 +195,13 @@
       return runSequence(['css','commonjs', 'staticFiles'], callback);
     });
   ```
+    
+* 目录结构 require-dir
+  安装 npm install require-dir --save-dev   
+  官网 https://github.com/aseemk/requireDir
+  ```html
+   var gulp = require('gulp'), //本地安装gulp所用到的地方
+     requireDir = require('require-dir');
+   
+   requireDir('./gulp-tasks/tasks-dev');//开发环境
+  ```
