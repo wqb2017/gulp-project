@@ -163,3 +163,35 @@
       return browserSync.reload();
     });
   ```
+    
+* 开发定位原文件位置 gulp-sourcemaps 
+  安装 npm install gulp-sourcemaps --save-dev   
+  官网 https://github.com/gulp-sourcemaps/gulp-sourcemaps
+  ```html
+    var gulp = require('gulp'), //本地安装gulp所用到的地方
+      sass = require("gulp-sass"),
+      sourcemaps = require('gulp-sourcemaps');
+    
+    //获取文件目录目录
+    var dirObj = require("./../base/way-dir.js");
+    
+    gulp.task('css', function () {
+      gulp.src(dirObj.sassDir + '/*.scss')
+        .pipe(sourcemaps.init())
+        .pipe(sass().on('error', sass.logError))
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest(dirObj.distDir + '/css'));
+    });
+  ```
+    
+* 同时运行多个任务 run-sequence
+  安装 npm install run-sequence --save-dev   
+  官网 https://github.com/OverZealous/run-sequence
+  ```html
+    var gulp = require('gulp'), //本地安装gulp所用到的地方
+      runSequence = require('run-sequence');
+    
+    gulp.task('build', function(callback) {
+      return runSequence(['css','commonjs', 'staticFiles'], callback);
+    });
+  ```
