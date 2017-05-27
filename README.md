@@ -146,7 +146,8 @@
   ```
     
 * 自动刷新 browser-sync  
-  安装 npm install browser-sync --save-dev  
+  安装 npm install browser-sync --save-dev   
+  官网 https://github.com/BrowserSync/browser-sync
   ```html
     var gulp = require('gulp'), //本地安装gulp所用到的地方
       browserSync = require('browser-sync').create();
