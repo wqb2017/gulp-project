@@ -12,8 +12,8 @@ gulp.task('staticFiles', function() {
     dirObj.pagesDir + '/**/*.*',//pages文件
     dirObj.publicDir + '/iconfont*/**/*.*',//字体图标
     dirObj.publicDir + '/images*/**/*.*',//图片资源
-    dirObj.thirdPartyLibsDir + '/**/*.*',//pages文件
-    dirObj.yunyingStandardDir + '/index.html'//入口文件
+    dirObj.vendeDir + '/**/*.*',//pages文件
+    dirObj.srcDir + '/index.html'//入口文件
   ])
     .pipe(gulp.dest(dirObj.distDir));
 });

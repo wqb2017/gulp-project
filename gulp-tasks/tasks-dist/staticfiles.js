@@ -23,7 +23,7 @@ gulp.task('files', function () {
     dirObj.pagesDir + '/**/*.{png,jpg,jpeg,gif,ico,css}',//pages文件
     dirObj.publicDir + '/iconfont*/**/*.*',//字体图标
     dirObj.publicDir + '/images*/**/*.*',//图片资源
-    dirObj.thirdPartyLibsDir + '/**/*.*'//pages文件
+    dirObj.vendeDir + '/**/*.*'//pages文件
   ])
     .pipe(gulp.dest(dirObj.distDir));
 });
@@ -31,7 +31,7 @@ gulp.task('files', function () {
 gulp.task('html', function () {
   return gulp.src([
     dirObj.pagesDir + '/**/*.html',//pages文件
-    dirObj.yunyingStandardDir + '/index.html'//入口文件
+    dirObj.srcDir + '/index.html'//入口文件
   ])
     .pipe(minifyHtml()) //压缩
     .pipe(gulp.dest(dirObj.distDir));
