@@ -35,6 +35,9 @@
 ## 全局安装gulp
 * npm install gulp --g
 
+## 项目中安装gulp
+* npm install gulp --save-dev
+
 ## 初始化项目依赖
 * npm install
 
