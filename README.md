@@ -208,3 +208,10 @@
    
    requireDir('./gulp-tasks/tasks-dev');//开发环境
   ```
+  
+  # Gulp的核心API只有4个：src、dest、task、watch
+
+* gulp.src(globs[, options])：指明源文件路径 globs：路径模式匹配； options：可选参数；
+* gulp.dest(path[, options])：指明处理后的文件输出路径 path：路径（一个任务可以有多个输出路径）； options：可选参数；
+* gulp.task(name[, deps], fn)：注册任务 name：任务名称（通过 gulp name 来执行这个任务）； deps：可选的数组，在本任务运行中所需要所依赖的其他任务（当前任务在依赖任务执行完毕后才会执行）； fn：任务函数（function方法）；
+* gulp.watch(glob [, opts], tasks)：监视文件的变化并运行相应的任务 glob：路径模式匹配； opts：可以选配置对象； taks：执行的任务；
